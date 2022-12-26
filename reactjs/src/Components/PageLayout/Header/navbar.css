@@ -1,0 +1,105 @@
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+} */
+html, body {
+  width: 100%;
+  overflow-x: hidden; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 0; }
+
+a {
+  color: #ff00cc;
+  transition: all .3s ease-in-out;
+  text-decoration: none; }
+
+a:focus,
+button:focus {
+  outline: none; }
+
+.btn:hover,
+a:hover {
+  text-decoration: none;
+  color: #333399; }
+
+img {
+  max-width: 100%; }
+
+.bg-fixed {
+  background-size: cover; }
+
+.bg-grey {
+  background-color: #f7f8f9; }
+
+.fs-40 {
+  font-size: 40px; }
+
+section {
+  position: relative; }
+
+.section-content {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.title-wrap,
+.section-title {
+  text-align: center; }
+
+.shadow {
+  box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important; }
+#header-navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 11;
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  padding-top: 15px ;
+  padding-bottom: 15px ;
+  
+}
+
+.navbar-brand {
+  font-size: 40px;
+  color: #000; }
+
+.navbar-nav .nav-link {
+  color: #fff;
+  transition: .3s ease; }
+
+.navbar-nav:hover li a {
+  opacity: 0.5; }
+  .navbar-nav:hover li a:hover {
+    opacity: 1; }
+
+.navbar-toggler {
+  font-size: 2rem;
+  color: #fff; }
+
+.navbar-transparent .navbar-collapse {
+  background: #ff00cc;
+      /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+      /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333399, #ff00cc);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px; } 
